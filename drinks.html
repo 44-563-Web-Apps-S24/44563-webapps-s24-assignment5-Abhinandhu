@@ -11,7 +11,21 @@
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <style>
+      .container {
+        background-color: #f1ecec;
+        padding: 20px;
+        margin-top: 20px;
+        margin-right: auto;
+        border-radius: 10px;
+      }
+      h3 {
+        margin-right: auto;
+        text-align: center;
+        background-color: #f8ddcc;
+      }
 
+</style>
 </head>
 <body>
 
@@ -41,23 +55,25 @@
       The drink row breaks first.This is because of responsiveness as col-md uses more width compared to col-sm-2(as it uses small width).
     </p>  
   </div>
-
+  <hr>
 
   <h3 style="color: cadetblue;">Drinks Images</h3>
   <div class="container">
-    <img src="evoca.jpg" alt="Evoca" class="img-fluid" width="250" height="250">
-    <img src="pepsi.jpg" alt="Pepsi" class="img-fluid" width="250" height="250">
-    <img src="africola.jpg" alt="Africola" class="img-fluid" width="250" height="250">
+    <img src="evoca.jpg" alt="Evoca" class="img-fluid" style="margin: 20px;" width="250" height="250">
+    <img src="pepsi.jpg" alt="Pepsi" class="img-fluid" style="margin: 20px;" width="250" height="250">
+    <img src="africola.jpg" alt="Africola" class="img-fluid" style="margin: 20px;" width="250" height="250">
   </div>
 
   <h3 style="color: cadetblue;">Drinks Thumbnails</h3>
   <div class="container">
-    <img src="evoca.jpg" alt="Evoca" class="img-thumbnail" width="250" height="250">
-    <img src="pepsi.jpg" alt="Pepsi" class="img-thumbnail" width="250" height="250">
-    <img src="africola.jpg" alt="africola" class="img-thumbnail" width="250" height="250">
+    <img src="evoca.jpg" alt="Evoca" class="img-thumbnail" style="margin: 20px;" width="250" height="250">
+    <img src="pepsi.jpg" alt="Pepsi" class="img-thumbnail" style="margin: 20px;"width="250" height="250">
+    <img src="africola.jpg" alt="africola" class="img-thumbnail" style="margin: 20px;"width="250" height="250">
   </div>
+  <hr>
 
-  <table class="table table-bordered border-primary caption-top table-striped table-hover">
+  <h3 style="color: cadetblue;">Table</h3>
+  <table class="table table-bordered border-primary caption-top table-striped table-hover container">
     <caption>Table of Drinks, Stars and Fish.</caption>
     <thead>
         <tr class="table-dark">
@@ -106,7 +122,33 @@
         </tr>
     </tbody>
 </table>
+<hr>
 
+<h3 style="color: cadetblue;">Buttons and Button Groups</h3>
+<div class="container">
+  <button type="button" class="btn btn-primary">A</button>
+  <button type="button" class="btn btn-secondary">B</button>
+  <button type="button" class="btn btn-primary">H</button>
+  <button type="button" class="btn btn-secondary">I</button>
+  <button type="button" class="btn btn-primary">N</button>
+  <button type="button" class="btn btn-secondary">A</button>
+</div>
+
+<div class="container btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-success">E</button>
+    <button type="button" class="btn btn-success">P</button>
+    <button type="button" class="btn btn-success">A</button>
+  </div>
+  <div class="btn-group" roles="Warning" aria-label="Warning Group">
+    <button type="button" class="btn btn-warning">K</button>
+    <button type="button" class="btn btn-warning">A</button>
+  </div>
+  <div class="btn-group" roles="Danger" aria-label="Danger Group">
+    <button type="button" class="btn btn-danger">Y</button>
+  </div>
+</div>
+<hr>
 
 
 
